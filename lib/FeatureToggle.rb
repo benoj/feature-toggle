@@ -14,8 +14,5 @@ module Features
 		def initialize
 			YAML.load(@@configuration.features_path)
 		end
-		def is_active?(feature_name)
-			
-		end
 	end
 end
